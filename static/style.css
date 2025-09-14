@@ -1,0 +1,69 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Quiz container */
+.quiz-container, body > div, body {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Questions */
+p {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+/* Options */
+input[type="radio"] {
+  margin-left: 8px;
+  
+}
+
+label, input[type="radio"] + br {
+  display: block;
+  margin: 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Buttons */
+button {
+  background: #6a11cb;
+  background: linear-gradient(to right, #2575fc, #6a11cb);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  margin: 15px 0;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  transform: scale(1.05);
+}
+
+/* Container box effect */
+body > * {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  width: 500px;
+}

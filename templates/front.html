@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Welcome ,{{user}}</h1>
+    <p>Select a subject to start the quiz:</p>
+
+   <a href="{{ url_for('english_quiz', subject='english_quiz', qno=1) }}"><button>English Quiz</button></a>
+   <a href="{{ url_for('science_quiz', subject='science_quiz', qno=1) }}"><button>Science Quiz</button></a>
+   <a href="{{ url_for('geography_quiz', subject='geography_quiz', qno=1) }}"><button>Geography Quiz</button></a>
+   <a href="{{ url_for('gk_quiz', subject='gk_quiz', qno=1) }}"><button>GK Quiz</button></a>
+
+
+    <br><br>
+    <!-- ✅ Logout button -->
+    <a href="{{ url_for('logout') }}"><button style="background:rgba(35, 17, 59, 0.873);">Logout</button></a>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+   
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    
+</head>
+<body>
+    <h1>Welcome to Online Quiz</h1> 
+        <button type="submit">Login</button>
+    </div>
+</body>
+</html> -->

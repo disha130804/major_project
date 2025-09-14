@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+     <div class="quiz-container">
+    <form  method="post">
+    <h2>Math Quiz</h2>
+      <p>Q1: Who invented zero?</p>
+      <input type="radio" name="q1" value="Aaryabhatt"> Aaryabhatt<br>
+      <input type="radio" name="q1" value="Chanakya"> Chanankya<br>
+      <input type="radio" name="q1" value="Bhaskar"> Bhaskar<br>
+      <input type="radio" name="q1" value="Pingala"> Pingala<br>
+      
+      <p>Q2: In 2x<sup>2</sup>-4x = 2, Find x.</p>
+      <input type="radio" name="q2" value="6"> 6<br>
+      <input type="radio" name="q2" value="4"> 4<br>
+      <input type="radio" name="q2" value="2">2<br>
+      <input type="radio" name="q2" value="8">8<br>
+      
+
+       <p>Q3: If y = 3x+2, find y when x=4.</p>
+      <input type="radio" name="q3" value="9"> 9<br>
+      <input type="radio" name="q3" value="16">16<br>
+      <input type="radio" name="q3" value="8">8<br>
+      <input type="radio" name="q3" value="14">14<br>
+      
+       <p>Q4: The radius of a circle is 7 cm. Find its area.(π=3.14)</p>
+      <input type="radio" name="q4" value="154.56">154.56 <br>
+      <input type="radio" name="q4" value="153.86"> 153.86<br>
+      <input type="radio" name="q4" value="158.23">158.23<br>
+      <input type="radio" name="q4" value="159.98">159.98<br>
+      
+
+       <p>Q5: If 3 pens costs for Rs.45, what will be the cost of 7 pens? </p>
+      <input type="radio" name="q5" value="100"> 100<br>
+      <input type="radio" name="q5" value="90">90<br>
+      <input type="radio" name="q5" value="110">110<br>
+      <input type="radio" name="q5" value="105">105<br>
+      <button type="submit">Submit</button>
+      
+
+</form>
+</div>
+
+      
+</body>
+</html>

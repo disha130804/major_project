@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Geography Quiz </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  
+</head>
+<body>
+   <div class="quiz-container">
+   <form method="post">
+   <h2>Geography Quiz</h2>
+  <p>Q1: Which is the largest continent in the world?</p>
+  <input type="radio" name="q1" value="Asia"> Asia<br>
+  <input type="radio" name="q1" value="Africa"> Africa<br>
+  <input type="radio" name="q1" value="Europe"> Europe<br>
+  <input type="radio" name="q1" value="Australia"> Australia<br>
+  
+
+  <p>Q2: Which is the longest river in the world?</p>
+  <input type="radio" name="q2" value="Amazon"> Amazon<br>
+  <input type="radio" name="q2" value="Nile"> Nile<br>
+  <input type="radio" name="q2" value="Ganga"> Ganga<br>
+  <input type="radio" name="q2" value="Mississippi"> Mississippi<br>
+  
+
+  <p>Q3: Mount Everest lies in which mountain range?</p>
+  <input type="radio" name="q3" value="Andes"> Andes<br>
+  <input type="radio" name="q3" value="Himalayas"> Himalayas<br>
+  <input type="radio" name="q3" value="Rockies"> Rockies<br>
+  <input type="radio" name="q3" value="Alps"> Alps<br>
+ 
+
+  <p>Q4: Which is the smallest ocean in the world?</p>
+  <input type="radio" name="q4" value="Pacific Ocean"> Pacific Ocean<br>
+  <input type="radio" name="q4" value="Atlantic Ocean"> Atlantic Ocean<br>
+  <input type="radio" name="q4" value="Arctic Ocean"> Arctic Ocean<br>
+  <input type="radio" name="q4" value="Indian Ocean"> Indian Ocean<br>
+  
+
+  <p>Q5: Which state of India is called the "Land of Rising Sun"?</p>
+  <input type="radio" name="q5" value="Arunachal Pradesh"> Arunachal Pradesh<br>
+  <input type="radio" name="q5" value="Assam"> Assam<br>
+  <input type="radio" name="q5" value="Sikkim"> Sikkim<br>
+  <input type="radio" name="q5" value="Nagaland"> Nagaland<br>
+  <button type="submit">Submit</button>
+  </form>
+  </div>
+
+</body>
+</html>

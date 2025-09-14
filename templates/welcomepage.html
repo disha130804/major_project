@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <h2>Welcome,{{username}}!</h2>
+    <p>Which quiz you wanna try today?</p>
+
+    <ul>
+    <li><a href="#">Math Quiz</a></li>
+    <li><a href="#">Science Quiz</a></li>
+    <li><a href="#">General Knowledge Quiz</a></li>
+    <li><a href="#">Enlish Quiz</a></li>
+  </ul>
+  <button type="submit">Start Quiz</button>
+
+</body>
+</html>

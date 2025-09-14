@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+   
+</head>
+<body>
+    <div class="quiz-container">
+    <h2>English Quiz</h2>
+     <form method="POST">
+      <p>Q1: Choose the synonym of happy:</p>
+      <input type="radio" name="q1" value="sad"> sad<br>
+      <input type="radio" name="q1" value=" glad"> glad<br>
+      <input type="radio" name="q1" value=" angry"> angry<br>
+      <input type="radio" name="q1" value=" bored"> bored<br>
+      
+
+      <p>Q2:Choose the correct past tense of this sentence: She goes to school everyday.</p>
+      <input type="radio" name="q2" value="She went to school everyday">She went to school everyday <br>
+      <input type="radio" name="q2" value="She gone to school everyday"> She gone to school everyday<br>
+      <input type="radio" name="q2" value="She going to school everyday">She going to school everyday<br>
+      <input type="radio" name="q2" value="She go to school everyday">She go to school everyday<br>
+      
+
+       <p>Q3: Which word is the noun in this sentence: The cat is sleeping on the sofa.</p>
+      <input type="radio" name="q3" value="sleeping">sleeping<br>
+      <input type="radio" name="q3" value="sofa">sofa<br>
+      <input type="radio" name="q3" value="on">on<br>
+      <input type="radio" name="q3" value="is">is<br>
+      
+
+       <p>Q4:Convert into passive: The teacher explains the lesson.</p>
+      <input type="radio" name="q4" value="The lesson is explained by the teacher.">The lesson is explained by the teacher.<br>
+      <input type="radio" name="q4" value="The teacher is explains by the lesson."> The teacher is explains by the lesson.<br>
+      <input type="radio" name="q4" value="The teacher explained the lesson.">The teacher explained the lesson.<br>
+      <input type="radio" name="q4" value="The lesson explains the teacher.">The lesson explains the teacher.<br>
+      
+       <p>Q5: Choose antonym of brave: </p>
+      <input type="radio" name="q5" value="bold"> bold<br>
+      <input type="radio" name="q5" value="coward">coward<br>
+      <input type="radio" name="q5" value="strong">strong<br>
+      <input type="radio" name="q5" value="smart">smart<br>
+       <button type="submit">Submit</button>
+
+      
+      
+
+
+</form>
+      </div>
+</body>
+</html>

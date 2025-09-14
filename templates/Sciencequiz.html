@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+     <div class="quiz-container">
+        <form  method="post">
+    <h2>Science Quiz</h2>
+      <p>Q1: What is the SI Unit of force </p>
+      <input type="radio" name="q1" value="newton">newton<br>
+      <input type="radio" name="q1" value="joule"> joule<br>
+      <input type="radio" name="q1" value="watt"> watt<br>
+      <input type="radio" name="q1" value=" pa<button type="submit">Submit</button>
+
+      <p>Q2:Which of the following is a compound?</p>
+      <input type="radio" name="q2" value="Oxygen">Oxygen <br>
+      <input type="radio" name="q2" value="Carbon"> Carbon<br>
+      <input type="radio" name="q2" value="Water">Water<br>
+      <input type="radio" name="q2" value="Iron">Iron<br>
+      
+
+       <p>Q3: Which of these is a natural indicator of acids and bases? </p>
+      <input type="radio" name="q3" value="Salt">Salt<br>
+      <input type="radio" name="q3" value="Litmus">Litmus<br>
+      <input type="radio" name="q3" value="Water">Water<br>
+      <input type="radio" name="q3" value="Sugar">Sugar<br>
+      
+
+       <p>Q4:The "control-centre" of a cell is: </p>
+      <input type="radio" name="q4" value="Cytoplasm">Cytoplasm<br>
+      <input type="radio" name="q4" value="Nucleus"> Nucleus<br>
+      <input type="radio" name="q4" value="Cell Wall">Cell Wall<br>
+      <input type="radio" name="q4" value="Mitochondria">Mitochondria<br>
+      
+
+       <p>Q5: The process by which green plants make food is called: </p>
+      <input type="radio" name="q5" value="Respiration">Respiration<br>
+      <input type="radio" name="q5" value="Photosynthesis">Photosynthesis<br>
+      <input type="radio" name="q5" value="Transportation">Transportation<br>
+      <input type="radio" name="q5" value="Digestion">Digestion<br>
+      <button type="submit">Submit</button>
+
+      </form>
+</div>
+
+
+      
+</body>
+</html>

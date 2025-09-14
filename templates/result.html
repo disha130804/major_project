@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="quiz-container">
+    <h2>{{ subject }} Quiz Result</h2>
+    <p>Your Score: <b>{{ score }}/{{ total }}</b></p>
+
+    {% if score == total %}
+      <p>🎉 Excellent! You got all answers correct!</p>
+    {% elif score >= (total // 2) %}
+      <p>👍 Good job! Keep practicing.</p>
+    {% else %}
+      <p>😅 Don’t worry, try again and improve.</p>
+    {% endif %}
+
+    <a href="{{ url_for('home') }}"><button>Back to Home</button></a>
+  </div>
+</body>
+</html>
